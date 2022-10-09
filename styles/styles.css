@@ -374,6 +374,28 @@ p {
 
 /* FOOTER */
 
+.logo-footer {
+
+  color: var(--color-white-color);
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  font-style: normal;
+}
+.logoslog-footer {
+  color: var(--color-thirdary);
+}
+.logotip {
+ padding-top: 60px;
+margin-bottom: 20px;
+}
+
+/* .adresse-position {
+  margin-bottom: 60px;
+} */
+
 .adresse-footer {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -394,18 +416,7 @@ p {
   line-height: 1.7;
 }
 
-.logo-footer {
-  color: var(--color-white-color);
-  font-family: "Raleway";
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  font-style: normal;
-}
-.logoslog-footer {
-  color: var(--color-thirdary);
-}
+
 
 .location {
   color: var(--color-white-color);
@@ -414,4 +425,14 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+}
+
+.adresse-loc .list-adresse {
+  margin-bottom: 9px;
+}
+.list-adresse:nth-last-child(-n + 1) {
+margin-bottom: 0px;
+}
+.list-adresse:nth-last-child(-n + 1) {
+padding-bottom: 60px;
 }
